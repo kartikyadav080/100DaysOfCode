@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Css Selector
+    </title>
+</head>
+
+<style>
+
+/* We will use Internal Css */
+
+*{ /* It is a universal selector,It select all the Html elements on this page */
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h2{ /* It is a element selector , It select the specific selector like in this case it wil be all the h2 tags */
+    color: grey;
+    text-decoration: underline;
+}
+#list{ /* It is a id selector , it select the specific element with the specific id */
+color: blueviolet;
+}
+.red{ /* It is a class selector , it is used to select the elements having same class */
+color: chocolate;
+}
+div p{ /* It is decendent selector,it selects all the p elements inside the div */
+    text-align: left;
+    color: darkslategrey;
+}
+
+</style>
+
+<body>
+
+    <h2>Css Stands for Cascading style sheet</h2>
+    <h4 class="red">There are three types of Css </h4>
+    <ul id="list">
+        <li>Inline</li>
+        <li>Internal</li>
+        <li>External</li>
+    </ul>
+
+    <h4 class="red">Today we will use Internal Css</h4>
+
+<h2>Css Specificity</h2>
+<h4>It defines specificity of a selector i.e which css will be apply on the element. <br>
+    It is as follows:-
+</h4>
+<ol style="color: coral;">
+    <li>Inline Styles</li>
+    <li>Id Selectors</li>
+    <li>Class selector</li>
+    <li>Element Selector</li>
+    <li>Universal Selector</li>
+</ol>
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit distinctio tempore itaque. Voluptates, doloremque laboriosam et asperiores, molestias nostrum quibusdam dolor tempore, maxime explicabo atque! Sint voluptate eius repellat accusantium blanditiis quas quam quod repudiandae alias tenetur officia necessitatibus velit dolore at delectus, soluta debitis.</p>
+</div>
+</body>
+
+</html>
